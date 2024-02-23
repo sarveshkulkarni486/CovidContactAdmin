@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp"
+    tools:context=".AddVaccineCenterActivity">
+
+    <EditText
+        android:id="@+id/edtVCName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="Vaccine Center Name"
+        android:background="@drawable/borderbtn"
+        android:padding="10dp"
+        android:layout_margin="2dp"
+        android:textColorHint="#000000"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/edtVCContactNo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="Contact"
+        android:layout_margin="2dp"
+        android:background="@drawable/borderbtn"
+        android:padding="10dp"
+        android:inputType="number"
+        android:textColorHint="#000000"
+        android:textColor="#000000" />
+    <EditText
+        android:id="@+id/edtVCAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="Address"
+        android:background="@drawable/borderbtn"
+        android:padding="10dp"
+        android:layout_margin="2dp"
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        />
+    <EditText
+        android:id="@+id/edtVaccineName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="Vaccine  Name"
+        android:layout_margin="2dp"
+        android:background="@drawable/borderbtn"
+        android:padding="10dp"
+        android:textColorHint="#000000"
+        android:textColor="#000000" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/edtVaccineQty"
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="Available Vaccine"
+        android:layout_margin="2dp"
+        android:text="0"
+        android:inputType="number"
+        android:background="@drawable/borderbtn"
+        android:padding="10dp"
+        android:textColorHint="#000000"
+        android:textColor="#000000" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="+"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:layout_weight="1"/>
+        <EditText
+            android:id="@+id/edtUpdateVaccineQty"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Update Quantity"
+            android:layout_margin="2dp"
+            android:text="0"
+            android:inputType="number"
+            android:background="@drawable/borderbtn"
+            android:padding="10dp"
+            android:textColorHint="#000000"
+            android:textColor="#000000" />
+    </LinearLayout>
+    <EditText
+        android:id="@+id/edtPriceVaccine"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="Vaccine  Price"
+        android:layout_margin="2dp"
+        android:background="@drawable/borderbtn"
+        android:padding="10dp"
+        android:inputType="number"
+        android:textColorHint="#000000"
+        android:textColor="#000000" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSelect"
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:padding="20dp"
+            android:text="Select Image"
+            android:textColor="#ffff"
+            android:textSize="18sp"
+            android:backgroundTint="#AA1919"
+            android:layout_gravity="center"/>
+        <Button
+            android:id="@+id/btnUpload"
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:textColor="#ffff"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:padding="20dp"
+            android:text="Upload Image"
+            android:textSize="18sp"
+            android:backgroundTint="#39783B"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

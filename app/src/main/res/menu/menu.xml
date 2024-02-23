@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_precautions"
+        android:enabled="true"
+        android:icon="@drawable/msk"
+        android:title="Precautions"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_vaccineCenter"
+        android:enabled="true"
+        android:icon="@drawable/medicine"
+        android:title="Vaccine Center"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_logout"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_logout_24"
+        android:title="Logout"
+        app:showAsAction="ifRoom" />
+</menu>
